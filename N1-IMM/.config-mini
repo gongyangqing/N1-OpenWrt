@@ -30,7 +30,7 @@ CONFIG_PACKAGE_ipv6helper=n
 
 # luci
 CONFIG_PACKAGE_luci-app-amlogic=y
-CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-dockerman=n
 CONFIG_PACKAGE_luci-app-passwall=n
 CONFIG_PACKAGE_luci-app-samba4=n
 CONFIG_PACKAGE_luci-app-vlmcsd=n
@@ -41,7 +41,7 @@ CONFIG_PACKAGE_luci-app-socat=n
 CONFIG_PACKAGE_luci-app-cifs-mount=y
 CONFIG_PACKAGE_luci-app-wol=y
 CONFIG_PACKAGE_luci-app-mosdns=y
-CONFIG_PACKAGE_luci-app-openlist=n
+CONFIG_PACKAGE_luci-app-openlist=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 
 #luci默认中文语言
@@ -64,7 +64,7 @@ CONFIG_PACKAGE_luci-app-argon-config=y
 CONFIG_PACKAGE_luci-app-openvpn-server=y
 CONFIG_PACKAGE_luci-app-softethervpn=n
 CONFIG_PACKAGE_luci-app-wireguard=n
-CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-app-zerotier=n
 # 精简默认的插件
 CONFIG_PACKAGE_luci-app-filetransfer=n
 
